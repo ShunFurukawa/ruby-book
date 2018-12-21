@@ -9,9 +9,3 @@ def fizz_buzz(n)
     n.to_s
   end
 end
-
-num = 1..30
-
-num.each do |n|
-  puts fizz_buzz(n)
-end
